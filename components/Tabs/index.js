@@ -23,8 +23,6 @@ const mainTopic = document.querySelector('.topics');
 mainTopic.appendChild(newTopic);
 })
 
-
-
 })
 .catch(error=> {
 document.body.innerText(error);
